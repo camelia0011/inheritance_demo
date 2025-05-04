@@ -7,6 +7,11 @@ public class App {
 		B obj1 = new B(10,"AA",20,"BB");
 		System.out.println(obj1.displayA());
 		System.out.println(obj1);
+		System.out.println();
+		obj1.show();
+		System.out.println(obj1.x);
+		System.out.println(obj1.x);
+		obj1.showX();
 
 	}
 

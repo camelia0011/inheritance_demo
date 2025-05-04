@@ -3,6 +3,8 @@ package com.camelia.inherit.model;
 public class B extends A {
 	private int noB;
 	private String strB;
+	public int x=1000;
+	
 	public B() {
 		super();
 		System.out.println("Without arguement constructor in B");
@@ -31,6 +33,15 @@ public class B extends A {
 	@Override
 	public String toString() {
 		return "B [noB=" + noB + ", strB=" + strB + "]";
+	}
+	@Override
+	public void show() {
+		super.show();
+		System.out.println("Show() in B"); //overriding method of superclass
+	}
+	public void showX() {
+		System.out.println("A's x= "+super.x);
+		System.out.println("B's x= "+x);
 	}
 
 }

@@ -3,6 +3,8 @@ package com.camelia.inherit.model;
 public class A {
 	private int noA;
 	private String str;
+	public int x=100;
+	
 	public A() {
 		super();
 		System.out.println("Without arguement constructor in A");
@@ -30,5 +32,8 @@ public class A {
 	@Override
 	public String toString() {
 		return "A [noA=" + noA + ", str=" + str + "]";
+	}
+	public void show() {
+		System.out.println("Show() in A");
 	}
 }
