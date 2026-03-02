@@ -3,6 +3,7 @@ A Java project demonstrating object-oriented inheritance concepts, built with Ec
 # Overview
 This project illustrates core Java inheritance principles through a simple class hierarchy. It serves as a hands-on reference for understanding how parent and child classes interact in Java.
 # Project Structure
+```
 inheritance_demo/
 ├── src/
 │   └── com/camelia/inherit/
@@ -13,6 +14,7 @@ inheritance_demo/
 ├── bin/                          # Compiled .class files
 ├── .classpath
 └── .project
+```
  # Getting Started
 Prerequisites
 
